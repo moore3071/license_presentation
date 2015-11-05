@@ -25,7 +25,7 @@
 			\item Do you want to define what can be done with your code?
 		\end{itemize}
 		\pause
-		\center\LARGE\textbf{Use A License!}
+		\center{\LARGE\textbf{Use A License!}}
 	\end{frame}
 	\begin{frame}
 		\frametitle{What licenses do for you}
@@ -36,21 +36,45 @@
 			\item Absolve you of responsibility
 		\end{itemize}
 	\end{frame}
-	\subsection{Licenses defined}
+	\subsection{Life without a license}
 	\begin{frame}
-		\frametitle{license:}
-		
+		\frametitle{Using no license}
+		What happens when you don't use a license?
+		\pause
+		\begin{itemize}[<+->]
+			\item You retain all rights
+			\item You must be contacted for use or modification
+			\item This is not GNU freedom!
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{To the public domain}
+		Code can be put into the public domain with a simple notice as such.
+		Code in the public domain can be used by anyone freely.
+		\pause
+		\center{DON'T DO THIS!}\\
+		\pause
+		Certain countries (cough cough Germany) don't honor the public domain
+		and this can give people trepidation about using public domain code.
 	\end{frame}
 	\section{License choices aplenty}
 	\subsection{What choices are there?}
 	\begin{frame}
 		\frametitle{Common licenses}
-		
+		There are a number of commonly used licenses. These range from the GPL (notably used for Linux) to the MIT license and more. Github does provide an API for licenses,
+		\pause
+		but luckily they also provided the statistics on licenses in March.\\
+		\center{\url{https://github.com/blog/1964-license-usage-on-github-com}}
 	\end{frame}
 	\subsection{How do I choose a license?}
 	\begin{frame}
-		\frametitle{What licenses are other people using}
-		
+		\frametitle{How do I choose a license for my project?}
+		You may be overwhelmed by the choices out there, and there are a lot of choices. However, there are two main categories of licenses:\\
+		\pause\begin{itemize}[<+->]
+			\item Copyleft: Copyleft licenses ensure derivative works remain GNU free and opensource.
+			\item Permissive: Permissive licenses allow for the proprietary use of the code.
+		\end{itemize}
+		\pause but when it comes to choosing a license, Github is your friend (other services are available)
 	\end{frame}
 	\begin{frame}
 		\frametitle{choosealicense.com}
@@ -71,7 +95,7 @@
 		\frametitle{wtfpl}
 		DO WHAT THE **** YOU WANT TO PUBLIC LICENSE\\
 		Version 2, December 2004\\
-		Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>\\
+		Copyright (C) 2004 Sam Hocevar $\langle$sam@hocevar.net$\rangle$\\
 		Everyone is permitted to copy and distribute verbatim or modified\\
 		copies of this license document, and changing it is allowed as long\\
 		as the name is changed.\\
@@ -82,13 +106,30 @@
 	\begin{frame}
 		\frametitle{beerware}
 		"THE BEER-WARE LICENSE" (Revision 42):\\
-		<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you\\
+		$langle$phk@FreeBSD.ORG$rangle$ wrote this file. As long as you retain this notice you\\
 		can do whatever you want with this stuff. If we meet some day, and you think\\
 		this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp\\
 	\end{frame}
 	\begin{frame}
 		\frametitle{fight club license and more}
 		\center\url{https://gist.github.com/benlk/fb545889eaa5894e77ac}
+	\end{frame}
+	\section{The dark side}
+	\subsection{EULA}
+	\begin{frame}
+		\frametitle{End User License Agreements}
+		The things that nobody reads\\
+		\begin{itemize}[<+->]
+			\item EULA forces you to agreement to a set of terms
+			\item Legalese is the language of choice
+			\item You as a user typically give up all rights
+			\item The lawyers usually don't even read them
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{EULAs are hilarious}
+		Since nobody tends to ever read EULAs they're filled with laughs, surprises, and terrifying things.\\
+		\center{ \href{http://www.makeuseof.com/tag/10-ridiculous-eula-clauses-agreed/}{Beware the EULAs}}
 	\end{frame}
 	\section{Outside the realm of software}
 	\subsection{Common Commons}
@@ -106,8 +147,8 @@
 	\end{frame}
 	\begin{frame}
 		\frametitle{Creative Commons}
-		
+		Creative Commons let's you do this. By simply answering a few questions you can get a
+		license tailored to what you want. \url{http://creativecommons.org/licenses/}
 	\end{frame}
 	%Good example link: https://esotericsoftware.com/files/license.txt
-	%http://www.makeuseof.com/tag/10-ridiculous-eula-clauses-agreed/
 \end{document}
